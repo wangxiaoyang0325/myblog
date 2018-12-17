@@ -1,1 +1,1 @@
-# blog
+这是一个仿thinkPHP框架，原生的php写的基于MVC思想的个人博客
