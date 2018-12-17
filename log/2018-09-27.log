@@ -1,0 +1,10 @@
+[27-Sep-2018 10:32:19 PRC] PHP Fatal error:  Uncaught Error: Class 'ModelUserModel' not found in D:\www\web2\Application\Controller\Admin\LoginController.class.php:13
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LoginController->loginAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LoginController.class.php on line 13
+[27-Sep-2018 10:45:16 PRC] PHP Notice:  Undefined variable: cat_id in D:\www\web2\Application\Model\CategoryModel.class.php on line 28
+[27-Sep-2018 10:51:32 PRC] PHP Notice:  Undefined variable: cat_id in D:\www\web2\Application\Model\CategoryModel.class.php on line 28
+[27-Sep-2018 10:52:27 PRC] PHP Notice:  Undefined variable: cat_id in D:\www\web2\Application\Model\CategoryModel.class.php on line 28

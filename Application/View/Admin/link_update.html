@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form method="post" action="">
+		<table cellspacing="0" cellpadding="0" bgcolor="#e6f2fb" border="1" align="center" width="500" style="line-height: 30px;">
+			<caption><h2>修改链接</h2></caption>
+			<tr align="center">
+				<th>连接序号</th>
+				<th>链接名</th>
+				<th>链接地址</th>
+			</tr>
+			<tr align="center">
+				<td>{$data.link_info.link_id}</td>
+				<td><input type="text" name="link_name" style="line-height:28px;" width="200" value="{$data.link_info.link_name}"></td>
+				<td><input type="text" name="link_url"  style="line-height:28px;" width="200" value="{$data.link_info.link_url}"></td>
+			</tr>
+			<tr align="center">
+				<td colspan="3"><button class="button bg-main" type="submit" name="">修改</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

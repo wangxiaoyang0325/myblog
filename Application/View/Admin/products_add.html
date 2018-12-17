@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="index.php?c=products&a=add" method="post">
+		<table cellspacing="0" border="1" cellpadding="0" align="center">
+			<tr align="center">
+				<th>名称</th>
+				<th>规格</th>
+				<th>价格</th>
+				<th>库存</th>
+			</tr>
+			<tr align="center">
+				<td><input type="text" name="proname"></td>
+				<td><input type="text" name="proguige"></td>
+				<td><input type="text" name="proprice"></td>
+				<td><input type="text" name="proamount"></td>
+			</tr>
+			<tr align="center">
+				<td colspan="5">
+					<input type="submit" name="btn" value="添加">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

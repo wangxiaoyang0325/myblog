@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="Content-Language" content="zh-CN" />
+	<title>www.myblog.com - Welcome to 我的博客 - Powered by PHP150912</title>
+	<link rel="stylesheet" rev="stylesheet" href="./public/style/default.css" type="text/css" media="all"/>
+	<script src="script/common.js" type="text/javascript"></script>
+</head>
+<body class="multi index">
+
+<!-- top bar -->
+<div id="top">
+	<div class="center">
+    <div class="menu-left">
+    <ul>
+     <li><a href="javascript:;" onclick="setHomepage('http://www.myblog.com');">设为首页</a></li>
+     <li><a href="javascript:;" onclick="addFavorite('http://www.myblog.com','www.myblog.com - Welcome to 我的博客')">收藏本站</a></li>      
+    </ul>
+    </div>
+    <div class="menu-right">
+	    <ul id="info">
+	    {if isset($smarty.session.user)}
+        <li>欢迎{$smarty.session.user.user_name}！</li>
+        {/if}
+
+        <li><a href="index.php?p=Admin&c=Admin&a=admin">管理</a></li>
+        {if isset($smarty.session.user)}
+        <li><a href="index.php?p=Admin&c=Login&a=logout">退出</a></li>
+        {/if}       
+    </ul>
+	    </div>
+   </div>	
+</div>
+  
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<h1 id="BlogTitle"><a href="http://www.myblog.com">www.myblog.com</a></h1>
+			<h3 id="BlogSubTitle">Welcome to 我的博客</h3>
+		</div>
+		<div id="divNavBar">
+			<ul>
+				<li id="nvabar-item-index"><a href="">首页</a></li><li id="navbar-page-2"><a href="">留言本</a></li>			</ul>
+		</div>
+
+		<div id="divMain">
+ {foreach $data.art_list as $rows}
+<div class="post multi">
+	<h4 class="post-date">{$rows['art_time']|date_format:'%Y-%m-%d %H:%M:%S'}</h4>
+	<h2 class="post-title"><a href="index.php?module=Article&id=1" target="_blank">{$rows['art_title']}</a></h2>
+	<div class="post-body">
+		{$rows['art_content']}
+	</div>
+	<h5 class="post-tags"></h5>
+	<h6 class="post-footer">
+		作者:{$rows['user_name']} | 分类:{$rows['cat_name']} | 阅读:{$rows['art_read']} | 赞:{$rows['art_up']} | 踩:{$rows['art_down']}</h6>
+</div>
+{/foreach}
+{$data.page_str}
+		<script>
+			function input_focus(e){
+				if(e.value == e.defaultValue) e.value = '';
+			}
+
+			function input_blur(e){
+				if(e.value == '') e.value = e.defaultValue;
+			}
+		</script>
+  </div>
+		</div>
+<div id="divSidebar">
+ 
+<dl class="function" id="divSearchPanel">
+<dt class="function_t">文章标题搜索</dt><dd class="function_c">
+
+<div>
+	<form name="search" method="post" action="">
+		<input type="text" name="q" size="11" value=""/> 
+		<input type="submit" value="搜索" />
+	</form>
+</div>
+
+
+</dd>
+</dl> 
+<dl class="function" id="divCalendar">
+<dt style="display:none;"></dt><dd class="function_c">
+
+<div></div>
+
+
+</dd>
+</dl> 
+<dl class="function" id="divCatalog">
+<dt class="function_t">文章分类</dt><dd class="function_c">
+<ul>
+{foreach $data.cat_list as $rows}
+			<li ><a href="index.php?p=Home&c=Article&a=list&cat_id={$rows['cat_id']}">
+			{str_repeat('&nbsp;',$rows['deep']*4)}{$rows['cat_name']}
+			</a></li>
+{/foreach}	
+</ul>
+
+</dd>
+</dl> 
+
+<dl class="function" id="divLinkage">
+<dt class="function_t">友情链接</dt><dd class="function_c">
+
+
+<ul>
+	{foreach $data.link_list as $rows}
+	<li><a href="{$rows['link_url']}">{$rows['link_name']}</a></li>
+	{/foreach}
+</ul>
+
+</dd>
+</dl> 
+<dl class="function" id="divMisc">
+<dt style="display:none;"></dt><dd class="function_c">
+
+
+<ul><li><a href="" target="_blank"><img src="image/logo/logo.jpg" height="31" width="88" alt="myblog" /></a></li><li><a href="" target="_blank"><img src="image/logo/rss.png" height="31" width="88" alt="订阅本站的 RSS 2.0 新闻聚合" /></a></li></ul>
+
+</dd>
+</dl>		</div>
+		<div id="divBottom">
+        	<h3 id="BlogCopyRight">
+                                            	Copyright © 2008-2028 PHP150912 All Rights Reserved            </h3>
+			<h4 id="BlogPowerBy">Powered by <a href="" title="myblog" target="_blank">myblog V1.0 Release 20151116</a></h4>
+		</div><div class="clear"></div>
+	</div><div class="clear"></div>
+	</div><div class="clear"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Document</title>
+ </head>
+ <body>
+ 	<table border="1" cellspacing="0" cellpadding="0" align="center" width="500">
+ 		<caption><h2>商品信息表</h2><a href="index.php?c=products&a=add">添加商品</a></caption>
+		<tr align="center">
+			<th>编号</th>
+			<th>名称</th>
+			<th>规格</th>
+			<th>价格</th>
+			<th>库存</th>
+			<th>删除</th>
+			<th>修改</th>
+		</tr>
+		{foreach $list as $v}
+		<tr align="center">
+			<td>{$v['proID']}</td>
+			<td>{$v['proname']}</td>
+			<td>{$v['proguige']}</td>
+			<td>{$v['proprice']}</td>
+			<td>{$v['proamount']}</td>
+			<td><a href="index.php?c=products&a=del&proid={$v['proID']}">删除</a></td>
+			<td><a href="index.php?c=products&a=upd&proid={$v['proID']}">修改</a></td>
+		</tr>
+		{/foreach}
+ 	</table>
+ </body>
+ </html>

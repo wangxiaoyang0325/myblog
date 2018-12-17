@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>拼图后台管理-后台管理</title>
+    <link rel="stylesheet" href="./Application/View/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="./Application/View/Admin/css/admin.css">
+</head>
+
+<body>
+<div class="admin">
+<form method="post" action="">
+<div class="panel admin-panel">
+<div class="panel-head"><strong>文章检索</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+	类别：
+    <select name="cat_id">
+        <option value="">--不限--</option>
+        {foreach $data.cat_list as $rows}
+        <option value="{$rows[cat_id]}" {(isset($smarty.post.cat.id) && $smarty.post.cat_id==$rows['cat_id'])?'selected':''}>
+        {str_repeat('&nbsp;',$rows['deep']*4)}{$rows['cat_name']}
+        </option>
+        {/foreach}
+    </select>
+    标题：<input type="text" name="title" value="{(isset($smarty.post.title))?$smarty.post.title:''}">
+    内容：<input type="text" name="content" value="{(isset($smarty.post.content))?$smarty.post.content:''}">
+    
+    是否公开：
+    <select name="is_public">
+    <option value="">不限</option>
+    <option value="1"{(isset($smarty.post.is_public) && $smarty.post.is_public==="1")?selected:''}>是
+    </option>
+    <option value="0"{(isset($smarty.post.is_public) && $smarty.post.is_public==="0")?selected:''}>否
+    </option></select>
+    是否置顶：<select name="is_top">
+    	<option value="">不限</option>
+        <option value="1" {(isset($smarty.post.is_top) && $smarty.post.is_top==="1")?'selected':''}>是</option>
+        <option value="0" {(isset($smarty.post.is_top) && $smarty.post.is_top==="0")?'selected':''}>否</option></select>
+    <input type="submit" name="submit" value="搜索">
+</div>
+</div>
+</form>
+<script type="text/javascript">
+        window.onload=function(){
+            //全选：
+            document.getElementById('checkall').onclick=function(){
+                var boxes=document.getElementsByName('art_id');
+                for(var i=0;i<boxes.length;i++){
+                    boxes[i].checked=!boxes[i].checked;
+                }
+            }
+            //批量删除：
+            document.getElementById('del_all').onclick=function(){
+                var ids=[];//保存删除的id编号，数组格式。
+                var boxes=document.getElementsByName('art_id');
+                for (var i=0;i<boxes.length;i++) {
+                    if (boxes[i].checked) {
+                        ids.push(boxes[i].value);
+                    }
+                }
+                if (ids.length!=0) {
+                    ids=ids.join(); //将元素连接成字符串
+                    location.href='index.php?p=Admin&c=Article&a=del&art_id='+ids;
+                }
+            }
+        }
+</script>
+    <div class="panel admin-panel">
+    	<div class="panel-head"><strong>内容列表</strong></div>
+        <div class="padding border-bottom">
+            <input type="button" class="button button-small checkall" id="checkall" value="全选" />
+            <input type="button" class="button button-small border-green" value="添加文章" onClick="location.href='index.php?p=Admin&c=Article&a=add'"/>
+            <input type="button" class="button button-small border-yellow" value="批量删除" id="del_all"/>
+            <input type="button" class="button button-small border-blue" value="回收站" onClick="location.href='index.php?p=Admin&c=Article&a=recycle'" />
+        </div>
+        <table class="table table-hover">
+            <tr><th width="45">选择</th><th width="120">分类</th><th width="*">名称</th><th width="300">时间</th><th width="150">操作</th></tr>
+            {foreach $data.art_list as $rows}
+            <tr>
+                <td><input type="checkbox" name="art_id" value="{$rows['art_id']}" /></td>
+                <td>{$rows['cat_name']}</td>
+                <td>{$rows['art_title']}</td>
+                <td>{$rows['art_time']|date_format:'%Y-%m-%d %H:%M:%S'}</td>
+                <td>
+                    <a class="button border-blue button-little" href="index.php?p=Admin&c=Article&a=edit&art_id={$rows['art_id']}">修改</a>
+                    <a class="button border-yellow button-little" href="index.php?p=Admin&c=Article&a=del&art_id={$rows['art_id']}" onclick="return confirm('确认删除?')">删除</a>
+                    <a class="button border-blue button-little" href="#">置顶</a>
+                </td>
+            </tr>
+            {/foreach}
+        </table>
+        <div class="panel-foot text-center">
+            <ul class="pagination"><li><a href="#">上一页</a></li></ul>
+            <ul class="pagination pagination-group">
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+            <ul class="pagination"><li><a href="#">下一页</a></li></ul>
+        </div>
+    </div>
+    <br />
+    <p class="text-right text-gray">基于<a class="text-gray" target="_blank" href="#">王晓阳</a>构建</p>
+</div>
+</body>
+    
+</html>

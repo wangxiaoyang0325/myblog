@@ -1,0 +1,487 @@
+[28-Sep-2018 18:23:27 PRC] PHP Fatal error:  Uncaught Error: Call to undefined method Controller\Admin\ArticleController::addAction() in D:\www\web2\Framework\Core\Framework.class.php:75
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 75
+[28-Sep-2018 18:55:46 PRC] PHP Notice:  Undefined variable: art_model in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 24
+[28-Sep-2018 18:55:46 PRC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:24
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->addAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 24
+[28-Sep-2018 19:01:37 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 62
+[28-Sep-2018 19:01:37 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 62
+[28-Sep-2018 19:02:15 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 62
+[28-Sep-2018 19:02:15 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 62
+[28-Sep-2018 19:08:10 PRC] PHP Notice:  Undefined variable: art_model in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 24
+[28-Sep-2018 19:08:10 PRC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:24
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->addAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 24
+[28-Sep-2018 19:09:59 PRC] PHP Notice:  Undefined variable: art_model in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 24
+[28-Sep-2018 19:09:59 PRC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:24
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->addAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 24
+[28-Sep-2018 19:11:47 PRC] PHP Notice:  Undefined variable: art_model in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 24
+[28-Sep-2018 19:11:47 PRC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:24
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->addAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 24
+[28-Sep-2018 19:36:55 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 19:37:28 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 19:37:40 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:08:51 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:08:53 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 64
+[28-Sep-2018 20:08:53 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:08:53 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:08:53 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:08:53 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:08:53 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:08:53 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:08:53 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:08:53 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:08:53 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:08:53 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:08:58 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:09:00 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 64
+[28-Sep-2018 20:09:00 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:09:00 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:09:00 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:09:00 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:09:00 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:09:00 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:09:00 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:09:00 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:09:00 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:09:00 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:10:35 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:10:37 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 64
+[28-Sep-2018 20:10:37 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:10:37 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:10:37 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:10:37 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:10:37 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:10:37 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:10:37 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:10:37 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:10:37 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:10:37 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:13:12 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:13:13 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 64
+[28-Sep-2018 20:13:13 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 69
+[28-Sep-2018 20:13:13 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:13:13 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:13:13 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:13:13 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:13:13 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:13:13 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:13:13 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:13:13 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:13:13 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:13:13 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:13:38 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:13:40 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 64
+[28-Sep-2018 20:13:40 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 69
+[28-Sep-2018 20:14:31 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:14:36 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:14:37 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 64
+[28-Sep-2018 20:14:37 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:14:37 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:14:37 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:14:37 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:14:37 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:14:37 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:14:37 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:14:37 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:14:37 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:14:37 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:14:58 PRC] PHP Notice:  Undefined index: cat_id in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 45
+[28-Sep-2018 20:16:07 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:16:09 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 66
+[28-Sep-2018 20:16:09 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:16:09 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:16:09 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:16:09 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:16:09 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:16:09 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:16:09 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:16:09 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:16:09 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:16:09 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:16:16 PRC] PHP Notice:  Undefined index: cat_id in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 45
+[28-Sep-2018 20:16:38 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:16:38 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 67
+[28-Sep-2018 20:16:38 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:16:38 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:16:38 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:16:38 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:16:38 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:16:38 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:16:38 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:16:38 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:16:38 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:16:38 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:16:44 PRC] PHP Notice:  Undefined index: cat_id in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 45
+[28-Sep-2018 20:24:22 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 64
+[28-Sep-2018 20:24:22 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:24:22 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:24:22 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:24:22 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:24:22 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:24:22 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:24:22 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:24:22 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:24:22 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:24:22 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:24:24 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:24:25 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 64
+[28-Sep-2018 20:24:25 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:24:25 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 52
+[28-Sep-2018 20:24:25 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:24:25 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 63
+[28-Sep-2018 20:24:25 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:24:25 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 85
+[28-Sep-2018 20:24:25 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:24:25 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 96
+[28-Sep-2018 20:24:25 PRC] PHP Notice:  Undefined index: data in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:24:25 PRC] PHP Notice:  Trying to get property of non-object in D:\www\web2\Application\Viewc\Admin\d6317bd45ad9331de1eb8fa1113430be72c656b8_0.file.article_edit.html.php on line 106
+[28-Sep-2018 20:25:39 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:25:40 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 64
+[28-Sep-2018 20:25:40 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 69
+[28-Sep-2018 20:25:44 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:25:46 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 64
+[28-Sep-2018 20:25:46 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 69
+[28-Sep-2018 20:25:48 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:26:22 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:26:56 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:27:06 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:35:41 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:35:41 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:36:41 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:40:32 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:41:22 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:41:22 PRC] PHP Notice:  Undefined index: art_name in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 69
+[28-Sep-2018 20:42:39 PRC] PHP Fatal error:  Uncaught Error: Call to undefined method Controller\Admin\ArticleController::delAction() in D:\www\web2\Framework\Core\Framework.class.php:75
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 75
+[28-Sep-2018 20:48:32 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 80
+[28-Sep-2018 20:48:34 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 80
+[28-Sep-2018 20:48:34 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 80
+[28-Sep-2018 20:50:00 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 80
+[28-Sep-2018 20:51:57 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 80
+[28-Sep-2018 20:52:55 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 80
+[28-Sep-2018 20:52:55 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 80
+[28-Sep-2018 21:15:00 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 80
+[28-Sep-2018 21:15:01 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 80
+[28-Sep-2018 21:15:02 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 80
+[28-Sep-2018 21:16:32 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 80
+[28-Sep-2018 21:19:15 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 79
+[28-Sep-2018 21:19:17 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 79
+[28-Sep-2018 21:19:17 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 79
+[28-Sep-2018 21:21:14 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 79
+[28-Sep-2018 21:25:54 PRC] PHP Parse error:  syntax error, unexpected '}' in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 79
+[28-Sep-2018 22:17:22 PRC] PHP Fatal error:  Uncaught Error: Class 'CategoryModel' not found in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 8
+[28-Sep-2018 22:17:24 PRC] PHP Fatal error:  Uncaught Error: Class 'CategoryModel' not found in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 8
+[28-Sep-2018 22:17:24 PRC] PHP Fatal error:  Uncaught Error: Class 'CategoryModel' not found in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 8
+[28-Sep-2018 22:26:12 PRC] PHP Fatal error:  Uncaught Error: Class 'CategoryModel' not found in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 8
+[28-Sep-2018 22:26:13 PRC] PHP Fatal error:  Uncaught Error: Class 'CategoryModel' not found in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 8
+[28-Sep-2018 22:26:13 PRC] PHP Fatal error:  Uncaught Error: Class 'CategoryModel' not found in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 8
+[28-Sep-2018 22:26:13 PRC] PHP Fatal error:  Uncaught Error: Class 'CategoryModel' not found in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 8
+[28-Sep-2018 22:26:14 PRC] PHP Fatal error:  Uncaught Error: Class 'CategoryModel' not found in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 8
+[28-Sep-2018 22:28:09 PRC] PHP Fatal error:  Uncaught Error: Class 'CategoryModel' not found in D:\www\web2\Application\Controller\Admin\ArticleController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\ArticleController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\ArticleController.class.php on line 8
+[28-Sep-2018 22:28:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:28:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:28:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:28:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:28:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:28:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:28:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:33:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:33:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:33:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:33:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:33:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:33:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:33:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:47:05 PRC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\www\web2\Application\Model\ArticleModel.class.php on line 26
+[28-Sep-2018 22:47:06 PRC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\www\web2\Application\Model\ArticleModel.class.php on line 26
+[28-Sep-2018 22:47:07 PRC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\www\web2\Application\Model\ArticleModel.class.php on line 26
+[28-Sep-2018 22:51:53 PRC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\www\web2\Application\Model\ArticleModel.class.php on line 27
+[28-Sep-2018 22:53:56 PRC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\www\web2\Application\Model\ArticleModel.class.php on line 27
+[28-Sep-2018 22:54:54 PRC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\www\web2\Application\Model\ArticleModel.class.php on line 27
+[28-Sep-2018 22:55:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:55:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:55:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:55:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:55:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:55:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:55:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:56:21 PRC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) in D:\www\web2\Application\Model\ArticleModel.class.php on line 52
+[28-Sep-2018 22:56:21 PRC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) in D:\www\web2\Application\Model\ArticleModel.class.php on line 52
+[28-Sep-2018 22:57:32 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:57:32 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:57:32 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:57:32 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:57:32 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:57:32 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:57:32 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 22:57:43 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 58
+[28-Sep-2018 22:57:43 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 59
+[28-Sep-2018 23:01:14 PRC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in D:\www\web2\Application\Model\ArticleModel.class.php on line 53
+[28-Sep-2018 23:01:16 PRC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in D:\www\web2\Application\Model\ArticleModel.class.php on line 53
+[28-Sep-2018 23:01:16 PRC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in D:\www\web2\Application\Model\ArticleModel.class.php on line 53
+[28-Sep-2018 23:01:16 PRC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in D:\www\web2\Application\Model\ArticleModel.class.php on line 53
+[28-Sep-2018 23:01:27 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:01:27 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:01:27 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:01:27 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:01:27 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:01:27 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:01:27 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:01:38 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 58
+[28-Sep-2018 23:01:38 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 59
+[28-Sep-2018 23:02:06 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:06 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:06 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:06 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:06 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:06 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:06 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:15 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 58
+[28-Sep-2018 23:02:15 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 59
+[28-Sep-2018 23:02:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:43 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 58
+[28-Sep-2018 23:02:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:02:43 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:05 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 58
+[28-Sep-2018 23:03:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:05 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:52 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:52 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:52 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:52 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:52 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:52 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:52 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:03:56 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 58
+[28-Sep-2018 23:03:56 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 59
+[28-Sep-2018 23:04:10 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:04:10 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:04:10 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:04:10 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:04:10 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:04:10 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:04:10 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:12 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:12 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:12 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:12 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:12 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:12 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:12 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:17 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 58
+[28-Sep-2018 23:06:17 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 59
+[28-Sep-2018 23:06:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:35 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:06:37 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 58
+[28-Sep-2018 23:06:37 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 59
+[28-Sep-2018 23:08:58 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:08:58 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:08:58 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:08:58 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:08:58 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:08:58 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:08:58 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:09:00 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 58
+[28-Sep-2018 23:09:00 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 59
+[28-Sep-2018 23:10:59 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:10:59 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:10:59 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:10:59 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:10:59 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:10:59 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:10:59 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:11:03 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 58
+[28-Sep-2018 23:11:03 PRC] PHP Notice:  Undefined index: is_top in D:\www\web2\Application\Model\ArticleModel.class.php on line 59
+[28-Sep-2018 23:14:21 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:21 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:21 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:21 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:21 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:21 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:21 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:24 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:24 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:24 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:24 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:24 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:24 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:14:24 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:47 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:47 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:47 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:47 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:47 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:47 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:47 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:49 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:49 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:49 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:49 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:49 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:49 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:15:49 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:38 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:41 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:41 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:41 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:41 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:41 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:41 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:16:41 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[28-Sep-2018 23:39:07 PRC] PHP Fatal error:  Uncaught Error: Class 'Controller\Admin\LinkController' not found in D:\www\web2\Framework\Core\Framework.class.php:74
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 74
+[28-Sep-2018 23:39:08 PRC] PHP Fatal error:  Uncaught Error: Class 'Controller\Admin\LinkController' not found in D:\www\web2\Framework\Core\Framework.class.php:74
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 74
+[28-Sep-2018 23:39:08 PRC] PHP Fatal error:  Uncaught Error: Class 'Controller\Admin\LinkController' not found in D:\www\web2\Framework\Core\Framework.class.php:74
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 74
+[28-Sep-2018 23:39:59 PRC] PHP Fatal error:  Uncaught Error: Class 'Controller\Admin\LinkController' not found in D:\www\web2\Framework\Core\Framework.class.php:74
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 74
+[28-Sep-2018 23:40:24 PRC] PHP Fatal error:  Uncaught Error: Class 'Controller\Admin\LinkController' not found in D:\www\web2\Framework\Core\Framework.class.php:74
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 74
+[28-Sep-2018 23:44:33 PRC] PHP Fatal error:  Uncaught Error: Class 'Controller\Admin\LinkController' not found in D:\www\web2\Framework\Core\Framework.class.php:74
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 74
+[28-Sep-2018 23:44:34 PRC] PHP Fatal error:  Uncaught Error: Class 'Controller\Admin\LinkController' not found in D:\www\web2\Framework\Core\Framework.class.php:74
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 74

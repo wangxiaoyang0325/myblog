@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="index.php?c=products&a=upd1" method="post">
+		<table cellspacing="0" border="1" cellpadding="0" align="center">
+			<tr align="center">
+				<th>编号</th>
+				<th>名称</th>
+				<th>规格</th>
+				<th>价格</th>
+				<th>库存</th>
+			</tr>
+			<tr align="center">
+				<td><input type="text" name="proid" value="<?=$list['proID']?>"></td>
+				<td><input type="text" name="proname" value="<?=$list['proname']?>"></td>
+				<td><input type="text" name="proguige" value="<?=$list['proguige']?>"></td>
+				<td><input type="text" name="proprice" value="<?=$list['proprice']?>"></td>
+				<td><input type="text" name="proamount" value="<?=$list['proamount']?>"></td>
+			</tr>
+			<tr align="center">
+				<td colspan="5">
+					<input type="submit" name="btn" value="修改">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

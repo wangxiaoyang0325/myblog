@@ -1,0 +1,327 @@
+[29-Sep-2018 14:16:31 PRC] PHP Fatal error:  Uncaught Error: Class 'Controller\Admin\LinkController' not found in D:\www\web2\Framework\Core\Framework.class.php:74
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 74
+[29-Sep-2018 14:16:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:33 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:33 PRC] PHP Fatal error:  Uncaught Error: Class 'Controller\Admin\LinkController' not found in D:\www\web2\Framework\Core\Framework.class.php:74
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 74
+[29-Sep-2018 14:16:34 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:34 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:34 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:34 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:34 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:34 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:34 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 14:16:34 PRC] PHP Fatal error:  Uncaught Error: Class 'Controller\Admin\LinkController' not found in D:\www\web2\Framework\Core\Framework.class.php:74
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 74
+[29-Sep-2018 14:18:51 PRC] PHP Notice:  Undefined property: Controller\Admin\LinkController::$samrty in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 14:18:51 PRC] PHP Fatal error:  Uncaught Error: Call to a member function assign() on null in D:\www\web2\Application\Controller\Admin\LinkController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LinkController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:12:41 PRC] PHP Notice:  Undefined property: Controller\Admin\LinkController::$samrty in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:12:41 PRC] PHP Fatal error:  Uncaught Error: Call to a member function assign() on null in D:\www\web2\Application\Controller\Admin\LinkController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LinkController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:13:01 PRC] PHP Notice:  Undefined property: Controller\Admin\LinkController::$samrty in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:13:01 PRC] PHP Fatal error:  Uncaught Error: Call to a member function assign() on null in D:\www\web2\Application\Controller\Admin\LinkController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LinkController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:13:10 PRC] PHP Notice:  Undefined property: Controller\Admin\LinkController::$samrty in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:13:10 PRC] PHP Fatal error:  Uncaught Error: Call to a member function assign() on null in D:\www\web2\Application\Controller\Admin\LinkController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LinkController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:13:12 PRC] PHP Notice:  Undefined property: Controller\Admin\LinkController::$samrty in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:13:12 PRC] PHP Fatal error:  Uncaught Error: Call to a member function assign() on null in D:\www\web2\Application\Controller\Admin\LinkController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LinkController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:13:12 PRC] PHP Notice:  Undefined property: Controller\Admin\LinkController::$samrty in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:13:12 PRC] PHP Fatal error:  Uncaught Error: Call to a member function assign() on null in D:\www\web2\Application\Controller\Admin\LinkController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LinkController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:13:15 PRC] PHP Notice:  Undefined property: Controller\Admin\LinkController::$samrty in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:13:15 PRC] PHP Fatal error:  Uncaught Error: Call to a member function assign() on null in D:\www\web2\Application\Controller\Admin\LinkController.class.php:8
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LinkController->listAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 8
+[29-Sep-2018 16:27:21 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Admin\link_list.html"  on line 7 "a{line-height: 30px;}"  - Unexpected ": ", expected one of: "}" <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 7
+[29-Sep-2018 16:27:22 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Admin\link_list.html"  on line 7 "a{line-height: 30px;}"  - Unexpected ": ", expected one of: "}" <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 7
+[29-Sep-2018 16:27:23 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Admin\link_list.html"  on line 7 "a{line-height: 30px;}"  - Unexpected ": ", expected one of: "}" <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 7
+[29-Sep-2018 16:27:23 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Admin\link_list.html"  on line 7 "a{line-height: 30px;}"  - Unexpected ": ", expected one of: "}" <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 7
+[29-Sep-2018 16:27:30 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:27:30 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:27:30 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:27:30 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:27:30 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:27:30 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:27:30 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:28:13 PRC] PHP Fatal error:  Uncaught Error: Call to undefined method Controller\Admin\LinkController::addAction() in D:\www\web2\Framework\Core\Framework.class.php:75
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 75
+[29-Sep-2018 16:30:00 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:30:00 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:30:00 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:30:00 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:30:00 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:30:00 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:30:00 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:30:41 PRC] PHP Fatal error:  Uncaught Error: Call to undefined method Controller\Admin\LinkController::addAction() in D:\www\web2\Framework\Core\Framework.class.php:75
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 75
+[29-Sep-2018 16:30:42 PRC] PHP Fatal error:  Uncaught Error: Call to undefined method Controller\Admin\LinkController::addAction() in D:\www\web2\Framework\Core\Framework.class.php:75
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#1 D:\www\web2\index.php(3): Core\Framework::run()
+#2 {main}
+  thrown in D:\www\web2\Framework\Core\Framework.class.php on line 75
+[29-Sep-2018 16:46:56 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:46:56 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:46:56 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:46:56 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:46:56 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:46:56 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:46:56 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 16:51:54 PRC] PHP Notice:  Undefined index: link_name in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 16:51:54 PRC] PHP Notice:  Undefined index: link_url in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 14
+[29-Sep-2018 16:51:54 PRC] PHP Warning:  Missing argument 1 for Core\Model::insert(), called in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 16 and defined in D:\www\web2\Framework\Core\Model.class.php on line 42
+[29-Sep-2018 16:51:54 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Framework\Core\Model.class.php on line 43
+[29-Sep-2018 16:51:54 PRC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in D:\www\web2\Framework\Core\Model.class.php on line 43
+[29-Sep-2018 16:51:54 PRC] PHP Warning:  array_map(): Argument #2 should be an array in D:\www\web2\Framework\Core\Model.class.php on line 46
+[29-Sep-2018 16:51:54 PRC] PHP Warning:  implode(): Invalid arguments passed in D:\www\web2\Framework\Core\Model.class.php on line 47
+[29-Sep-2018 16:51:54 PRC] PHP Notice:  Undefined variable: data in D:\www\web2\Framework\Core\Model.class.php on line 48
+[29-Sep-2018 16:51:54 PRC] PHP Warning:  array_values() expects parameter 1 to be array, null given in D:\www\web2\Framework\Core\Model.class.php on line 48
+[29-Sep-2018 16:51:54 PRC] PHP Warning:  array_map(): Argument #2 should be an array in D:\www\web2\Framework\Core\Model.class.php on line 51
+[29-Sep-2018 16:51:54 PRC] PHP Warning:  implode(): Invalid arguments passed in D:\www\web2\Framework\Core\Model.class.php on line 52
+[29-Sep-2018 16:56:17 PRC] PHP Notice:  Undefined index: link_name in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 16:56:17 PRC] PHP Notice:  Undefined index: link_url in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 14
+[29-Sep-2018 16:56:52 PRC] PHP Notice:  Undefined index: link_name in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 16:56:52 PRC] PHP Notice:  Undefined index: link_url in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 14
+[29-Sep-2018 17:01:26 PRC] PHP Notice:  Undefined index: link_name in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 17:01:26 PRC] PHP Notice:  Undefined index: link_url in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 14
+[29-Sep-2018 17:02:09 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:09 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:09 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:09 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:09 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:09 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:09 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:17 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:17 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:17 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:17 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:17 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:17 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:02:17 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:04:19 PRC] PHP Notice:  Undefined variable: empty in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 17:04:19 PRC] PHP Fatal error:  Uncaught Error: Function name must be a string in D:\www\web2\Application\Controller\Admin\LinkController.class.php:13
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LinkController->addAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 17:05:23 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:23 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:23 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:23 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:23 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:23 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:23 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:29 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:29 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:29 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:29 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:29 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:29 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:05:29 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:06:15 PRC] PHP Notice:  Undefined variable: empty in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 17:06:15 PRC] PHP Fatal error:  Uncaught Error: Function name must be a string in D:\www\web2\Application\Controller\Admin\LinkController.class.php:13
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LinkController->addAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 17:08:45 PRC] PHP Notice:  Undefined variable: empty in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 17:08:45 PRC] PHP Fatal error:  Uncaught Error: Function name must be a string in D:\www\web2\Application\Controller\Admin\LinkController.class.php:13
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LinkController->addAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 17:10:30 PRC] PHP Notice:  Undefined variable: empty in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 17:10:30 PRC] PHP Fatal error:  Uncaught Error: Function name must be a string in D:\www\web2\Application\Controller\Admin\LinkController.class.php:13
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LinkController->addAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 17:12:35 PRC] PHP Notice:  Undefined variable: empty in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 17:12:35 PRC] PHP Fatal error:  Uncaught Error: Function name must be a string in D:\www\web2\Application\Controller\Admin\LinkController.class.php:13
+Stack trace:
+#0 D:\www\web2\Framework\Core\Framework.class.php(75): Controller\Admin\LinkController->addAction()
+#1 D:\www\web2\Framework\Core\Framework.class.php(11): Core\Framework::initDispatch()
+#2 D:\www\web2\index.php(3): Core\Framework::run()
+#3 {main}
+  thrown in D:\www\web2\Application\Controller\Admin\LinkController.class.php on line 13
+[29-Sep-2018 17:17:26 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:17:26 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:17:26 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:17:26 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:17:26 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:17:26 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:17:26 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:20:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:20:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:20:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:20:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:20:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:20:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:20:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:21:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:21:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:21:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:21:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:21:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:21:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:21:14 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:23:11 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:23:11 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:23:11 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:23:11 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:23:11 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:23:11 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 17:23:11 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:11:48 PRC] PHP Parse error:  syntax error, unexpected '$art_model' (T_VARIABLE), expecting function (T_FUNCTION) in D:\www\web2\Application\Controller\Home\IndexController.class.php on line 5
+[29-Sep-2018 19:17:03 PRC] PHP Fatal error:  Class 'Controller\Home\BaseController' not found in D:\www\web2\Application\Controller\Home\IndexController.class.php on line 3
+[29-Sep-2018 19:17:05 PRC] PHP Fatal error:  Class 'Controller\Home\BaseController' not found in D:\www\web2\Application\Controller\Home\IndexController.class.php on line 3
+[29-Sep-2018 19:17:41 PRC] PHP Fatal error:  Class 'Controller\Home\BaseController' not found in D:\www\web2\Application\Controller\Home\IndexController.class.php on line 3
+[29-Sep-2018 19:20:07 PRC] PHP Fatal error:  Class 'Controller\Home\BaseController' not found in D:\www\web2\Application\Controller\Home\IndexController.class.php on line 3
+[29-Sep-2018 19:22:16 PRC] PHP Fatal error:  Class 'Controller\Home\BaseController' not found in D:\www\web2\Application\Controller\Home\IndexController.class.php on line 3
+[29-Sep-2018 19:25:44 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:27:59 PRC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in D:\www\web2\Application\Controller\Home\IndexController.class.php on line 18
+[29-Sep-2018 19:28:21 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:30:16 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:16 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:16 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:16 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:16 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:16 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:16 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:18 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:18 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:18 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:18 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:18 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:18 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:30:18 PRC] PHP Notice:  Undefined index:  in D:\www\web2\Application\Viewc\Admin\55d1130b65d78ca78679f9619577eb8528d5788b_0.file.article_list.html.php on line 49
+[29-Sep-2018 19:31:24 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:37:22 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:38:04 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:38:05 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:38:05 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:38:07 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:40:57 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:41:57 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:41:58 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:41:58 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:41:58 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:41:58 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:41:59 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:41:59 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:41:59 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:42:07 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:42:30 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:42:30 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:42:31 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:42:31 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:42:31 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:43:31 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:43:31 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:43:31 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:44:00 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:44:28 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
+[29-Sep-2018 19:46:18 PRC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:D:\www\web2\Application\View\Home\index.html"  on line 148 "</html>" unclosed {foreach} tag <-- 
+  thrown in D:\www\web2\Framework\Core\Smarty\sysplugins\smarty_internal_templatecompilerbase.php on line 148
